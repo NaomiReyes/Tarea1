@@ -6,14 +6,22 @@ class Fabrica:
 		self.costoPro = pre_prod
 		self.ganancia = gana
 		self.descuento = False
+<<<<<<< HEAD
 	def costo:
+=======
+	def costo(self):
+>>>>>>> branch-1
 		if self.descuento:
 			des = int(input("¿Cuanto es el descuento?"))
 			costofin = (self.costoPro + self.ganancia) - des
 			print costofin
 		else:
 			print self.costoPro + self.ganancia
+<<<<<<< HEAD
 	def nombreProducto:
+=======
+	def nombreProducto(self):
+>>>>>>> branch-1
 		print self.nombre
 		
 			
